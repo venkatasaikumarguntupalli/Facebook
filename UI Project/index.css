@@ -1,0 +1,247 @@
+.header{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    gap:80px;
+    background-color: white;
+    padding: 10px;
+    transition: 1s;
+}
+#s{
+    position: absolute;
+    left:80px;
+    top:30px;
+    
+}
+.header .logo input{
+    background-color: rgb(231,229,229);
+    border:1px solid white;
+    border-radius: 30px;
+    width:250px;
+}
+.logo{
+    display:flex;
+    flex-wrap: wrap;
+    gap:10px;
+}
+.logo form{
+    margin-top: 10px;
+}
+.elements{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    width:40%;
+}
+.login{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    width:23%;
+}
+.info{
+    display:flex;
+    flex-wrap: wrap;
+    gap:5px;
+    align-items: center;
+}
+.picture{
+    border-radius: 50%;
+    height: 30px;
+    width:30px;
+    transition:2s;
+}
+.picture1{
+    border-radius: 50%;
+    height: 40px;
+    width:40px;
+    transition: 2s;
+}
+body{
+    background-color: rgb(231,229,229);
+    scroll-behavior: auto;
+}
+.Body{
+    display:flex;
+    flex-flow: row wrap;
+    flex-direction: row;
+    gap: 13%;
+}
+.left{
+    display:flex;
+    flex-flow: column wrap;
+    flex-direction: column;
+    justify-content: left;
+    gap: 20px;
+}
+.profile{
+    margin-top:35px;
+    margin-left: 15px;
+    align-items: center;
+    display:flex;
+    gap:10px;
+}
+.elementstyling{
+    display:flex;
+    align-items: center;
+    gap: 10px;
+    margin-left:10px;
+}
+.middle{
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: column;
+    flex-direction: column;
+    justify-content: left;
+    gap: 5%;
+}
+.what{
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: column;
+    flex-direction: column;
+    justify-content: left;
+    margin-top: 25px;
+    border:1px solid white;
+    border-radius: 5px;
+    background-color: white;
+    padding: 10px;
+}
+.whatsinmind{
+    display:flex;
+    flex-wrap:wrap;
+    flex-flow: row;
+    flex-direction: row;
+    align-items: center;
+    gap:20px;
+
+}
+.whatsinmind input{
+    width:450px;
+    background-color: rgb(231,229,229);
+    border: 1px solid white;
+    border-radius: 20px;
+    height:0.5cm;
+    padding:10px;
+}
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: row;
+    flex-direction: row;
+    align-items: center;
+    gap:40px;
+}
+.galleryitems{
+    display:flex;
+    flex-wrap: wrap;
+    flex-flow:row;
+    flex-direction: row;
+    align-items: center;
+    background-color: rgb(231,229,229);
+    border: 1px solid rgb(231,229,229);
+    border-radius: 10px;
+    padding:5px;
+    gap: 5px;
+}
+.galleryitem{
+    margin-left: 20px;
+    display:flex;
+    flex-wrap: wrap;
+    flex-flow:row;
+    flex-direction: row;
+    align-items: center;
+    background-color: rgb(231,229,229);
+    border: 1px solid rgb(231,229,229);
+    border-radius: 10px;
+    padding:5px;
+    gap: 5px;
+}
+hr{
+    color: rgb(231,229,229);
+}
+.profiles{
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: row;
+    flex-direction: row;
+    justify-content: left;
+    border:1px solid white;
+    border-radius: 5px;
+    background-color: white;
+    padding: 10px;
+    gap:40px;
+    margin-top: 20px;
+}
+.post{
+    display:flex;
+    flex-wrap: column wrap;
+    flex-direction: column;
+    justify-content: left;
+    background-color: white;
+    border:1px solid white;
+    border-radius: 5px;
+    margin-top:20px;
+}
+.pic{
+    display:flex;
+    flex-wrap:row wrap;
+    flex-direction: row;
+    justify-content: row;
+    justify-content: space-between;
+    padding-left:10px;
+    padding-top: 10px;
+}
+.pleft{
+    display:flex;
+    flex-wrap:row wrap;
+    justify-content: row;
+    justify-content: row;
+    gap:10px;
+}
+.name{
+    display:flex;
+    flex-wrap:wrap;
+    flex-direction: column;
+    justify-content: column;
+}
+.time{
+    display:flex;
+    flex-wrap:wrap;
+    flex-direction: row;
+    align-items: center;
+}
+.right{
+    display:flex;
+    flex-wrap: column wrap;
+    flex-direction: column;
+    justify-content: left;
+    gap: 35px;
+}
+.elementstyling:hover{
+    background-color: white;
+}
+.elements img:hover{
+    background-color: blue;
+}
+.picture:hover{
+    width:50px;
+    height:50px;
+}
+.picture1:hover{
+    width:50px;
+    height:50px;
+}
+.header img:hover{
+    width:50px;
+    height:50px;
+}
+.header .login input:hover{
+    width:50px;
+    height:50px;
+}
+.header .elements input:hover{
+    width:50px;
+    height:50px;
+}
